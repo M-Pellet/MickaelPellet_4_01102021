@@ -277,6 +277,14 @@ a:hover {
     margin-left: 0;
 }
 
+@media (max-width: 768px) {
+    .row-no-gutters {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
+
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
@@ -751,6 +759,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
